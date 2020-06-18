@@ -1,6 +1,6 @@
 module.exports = {
-    database: 'ALLERGIO',
+    DB: 'Allergio',
     host: "localhost",
     user: "root",
-    password: "N6mNh_>5%"
+    password: ":H=P3_p4KgQ}"
   };

@@ -21,7 +21,7 @@ User.create = (newUser, result) => {
 };
 
 User.findById = (userId, result) => {
-  sql.query(`SELECT * FROM customers WHERE id = ${userId}`, (err, res) => {
+  sql.query(`SELECT * FROM users WHERE id = ${userId}`, (err, res) => {
     if (err) {
       console.log("error: ", err);
       result(err, null);
